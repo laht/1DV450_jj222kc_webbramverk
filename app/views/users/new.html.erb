@@ -1,0 +1,8 @@
+<div id="registerForm">
+    <%= form_for @user do |f| %>
+       Ange namn: <%= f.text_field :name %>
+       Ange epost: <%= f.text_field :email %>
+       Ange lösenord: <%= f.password_field :password %>
+       <%= f.submit "Registrera användare" %>
+    <% end %>
+</div>
