@@ -1,3 +1,6 @@
-<% @user.each do |user| %>
-<p><%= user.name %></p>
-<% end %>
+<div id="log-in-form">
+    <%= form_tag(login_path, method: "post") do %>
+        <p><%= label_tag(:email "Epost:") %></p>
+        <p><%= email_field_tag(:email) %></p>
+    <% end %>
+</div>

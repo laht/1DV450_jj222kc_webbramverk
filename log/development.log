@@ -3033,3 +3033,462 @@ Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-01-30 15:5
 
 
 Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-01-30 15:54:49 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-01-31 15:41:01 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 127ms (Views: 123.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-01-31 15:41:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-01-31 15:41:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-01-31 15:41:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-01-31 15:41:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-01-31 15:41:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-01-31 15:41:01 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-01-31 15:41:01 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-01-31 15:41:02 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-01-31 16:12:02 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 64ms (Views: 57.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-01-31 16:12:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-01-31 16:12:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-01-31 16:12:03 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-01-31 16:12:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-01-31 16:12:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-01-31 16:12:03 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-01-31 22:24:18 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/home/ubuntu/workspace/app/models/user.rb:2: syntax error, unexpected =>, expecting keyword_end
+...dates :name, presence: :true => {:message => "Du måste ange...
+...                               ^
+/home/ubuntu/workspace/app/models/user.rb:5: syntax error, unexpected =>, expecting keyword_end
+    presence: :true => {:message => "Du måste ange en epost"}, 
+                      ^
+/home/ubuntu/workspace/app/models/user.rb:5: syntax error, unexpected ',', expecting keyword_end
+    presence: :true => {:message => "Du måste ange en epost"}, 
+                                                               ^
+/home/ubuntu/workspace/app/models/user.rb:8: syntax error, unexpected =>, expecting keyword_end
+...s :password, presence: :true => {:message => "Du måste ange...
+...                               ^):
+  app/models/user.rb:2: syntax error, unexpected =>, expecting keyword_end
+  app/models/user.rb:5: syntax error, unexpected =>, expecting keyword_end
+  app/models/user.rb:5: syntax error, unexpected ',', expecting keyword_end
+  app/models/user.rb:8: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.9ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-01-31 22:24:29 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/home/ubuntu/workspace/app/models/user.rb:2: syntax error, unexpected =>, expecting keyword_end
+...dates :name, presence: :true => {:message => "Du måste ange...
+...                               ^
+/home/ubuntu/workspace/app/models/user.rb:5: syntax error, unexpected =>, expecting keyword_end
+    presence: :true => {:message => "Du måste ange en epost"}, 
+                      ^
+/home/ubuntu/workspace/app/models/user.rb:5: syntax error, unexpected ',', expecting keyword_end
+    presence: :true => {:message => "Du måste ange en epost"}, 
+                                                               ^
+/home/ubuntu/workspace/app/models/user.rb:8: syntax error, unexpected =>, expecting keyword_end
+...s :password, presence: :true => {:message => "Du måste ange...
+...                               ^):
+  app/models/user.rb:2: syntax error, unexpected =>, expecting keyword_end
+  app/models/user.rb:5: syntax error, unexpected =>, expecting keyword_end
+  app/models/user.rb:5: syntax error, unexpected ',', expecting keyword_end
+  app/models/user.rb:8: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-01-31 22:28:51 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 7ms
+
+ArgumentError (Unknown validator: 'UserValidator'):
+  app/models/user.rb:8:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.8ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-01-31 22:29:19 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 81ms (Views: 76.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-01-31 22:29:19 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-01-31 22:29:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-01-31 22:29:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-01-31 22:29:20 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-01-31 22:29:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-01-31 22:29:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-01-31 22:29:20 +0000
+  [1m[36m (18.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150129213958)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "password_digest" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150129213958"]]
+  [1m[35m (13.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:34:14 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 11ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:2:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.8ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:34:45 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 7ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:2:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.6ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:34:47 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:2:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.8ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:35:02 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 14ms
+
+NameError (undefined local variable or method `with' for #<Class:0x00000004571fa8>):
+  app/models/user.rb:12:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.8ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:35:39 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+NameError (undefined local variable or method `with' for #<Class:0x000000041271f0>):
+  app/models/user.rb:12:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:35:51 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 95ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-01 00:35:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-01 00:35:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-01 00:35:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-01 00:35:52 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-01 00:35:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-01 00:35:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-01 00:35:52 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:37:11 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+ArgumentError (:attributes cannot be blank):
+  app/models/user.rb:12:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:37:27 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (A regular expression or a proc or lambda must be supplied as :with):
+  app/models/user.rb:12:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:37:36 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/ubuntu/workspace/app/models/user.rb:12: syntax error, unexpected ':', expecting keyword_end
+...   validates_format_of :email :with => "/\b[A-Z0-9._%a-z\-]+...
+...                               ^):
+  app/models/user.rb:12: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.9ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:37:40 +0000
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (A regular expression or a proc or lambda must be supplied as :with):
+  app/models/user.rb:12:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:3:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:37:52 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 51ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-01 00:37:53 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-01 00:37:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-01 00:37:53 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-01 00:37:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-01 00:37:53 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-01 00:37:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-01 00:37:53 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 00:38:22 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-01 00:38:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-01 00:38:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-01 00:38:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-01 00:38:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-01 00:38:22 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-01 00:38:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-01 00:38:22 +0000
+  [1m[36mUser Load (2.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-01 11:58:49 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 76ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-01 11:58:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-01 11:58:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-01 11:58:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-01 11:58:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-01 11:58:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-01 11:58:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-01 11:58:50 +0000
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-01 12:07:00.762880"], ["email", "test@test.com"], ["name", "Test Test"], ["password_digest", "$2a$10$mgWi7iR5c..9sAC9Yz4NvO0ljppAhUY8nPr3H8Q67fpSqUS8.N5uq"], ["updated_at", "2015-02-01 12:07:00.762880"]]
+  [1m[36m (13.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (3.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test2@test.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test2@test.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-01 12:16:27.368404"], ["email", "test2@test.com"], ["name", "test2"], ["password_digest", "$2a$10$3oYQYyg.mb6MBoVD73pc/.hwHBql/HWHlyHR1ZV4F1gIQvnIDmTWq"], ["updated_at", "2015-02-01 12:16:27.368404"]]
+  [1m[35m (13.2ms)[0m  commit transaction
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.8ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
