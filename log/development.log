@@ -3492,3 +3492,2521 @@ Binary data inserted for `string` type on column `password_digest`
   [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
   [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:21:51 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 27ms
+
+SyntaxError (/home/ubuntu/workspace/app/views/users/index.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting ')'
+...fer.append=( label_tag(:email "Epost:") );@output_buffer.saf...
+...                               ^
+/home/ubuntu/workspace/app/views/users/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+...=( label_tag(:email "Epost:") );@output_buffer.safe_append='...
+...                               ^):
+  app/views/users/index.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/users/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (82.4ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:22:27 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 71ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:22:27 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:22:27 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:22:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:22:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:22:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:22:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:22:27 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:23:30 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 11ms
+
+SyntaxError (/home/ubuntu/workspace/app/views/users/index.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting ')'
+...fer.append=( label_tag(:email "Epost:") );@output_buffer.saf...
+...                               ^
+/home/ubuntu/workspace/app/views/users/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+...=( label_tag(:email "Epost:") );@output_buffer.safe_append='...
+...                               ^):
+  app/views/users/index.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/users/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.6ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:23:54 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:23:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:23:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:23:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:23:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:23:54 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:23:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:23:54 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:24:00 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/home/ubuntu/workspace/app/views/users/index.html.erb:3: syntax error, unexpected '=', expecting ')'
+...fer.append=( label_tag(:email = "Epost:") );@output_buffer.s...
+...                               ^
+/home/ubuntu/workspace/app/views/users/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+... label_tag(:email = "Epost:") );@output_buffer.safe_append='...
+...                               ^):
+  app/views/users/index.html.erb:3: syntax error, unexpected '=', expecting ')'
+  app/views/users/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.9ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:26:14 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 65ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:26:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:14 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:26:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:14 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:14 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:26:31 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:26:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:26:31 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:26:31 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:30:41 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 61ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:30:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:30:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:41 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:30:56 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:30:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:30:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:56 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:30:56 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:33:45 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 94ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:33:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:33:46 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:33:46 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:33:46 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:33:46 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:33:46 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:33:46 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:34:01 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:01 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:34:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:34:01 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:01 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:34:09 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:34:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:34:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:09 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:34:09 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:37:15 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 87ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:37:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:37:16 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:37:16 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:37:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:37:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:37:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:37:16 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:38:38 +0000
+
+AbstractController::ActionNotFound (The action 'login' could not be found for UsersController):
+  actionpack (4.1.6) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.1ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:40:17 +0000
+
+AbstractController::ActionNotFound (The action 'login' could not be found for UsersController):
+  actionpack (4.1.6) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.0ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:40:41 +0000
+
+AbstractController::ActionNotFound (The action 'login' could not be found for UsersController):
+  actionpack (4.1.6) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.0ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:41:19 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 111ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:41:20 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:41:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:41:20 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:41:20 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:41:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:41:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:41:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:41:20 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:43:38 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 101ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:43:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:38 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:43:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:38 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:38 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:43:42 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:43:42 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:43:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:43:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:42 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:43 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:43 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:43:50 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 109ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:43:51 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:43:51 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:43:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:51 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:43:51 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 76ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:28 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:45:31 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:32 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:32 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:32 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:45:33 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 71ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:34 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:34 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:45:35 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:35 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:35 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:35 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 75ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 01:45:42 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:51:07 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1
+Completed 500 Internal Server Error in 85ms
+
+NameError (undefined local variable or method `token_path' for #<UsersController:0x000000034632e8>):
+  app/controllers/users_controller.rb:27:in `login'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (60.9ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:55:46 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Completed 500 Internal Server Error in 95ms
+
+NameError (undefined local variable or method `token_path' for #<UsersController:0x007f349018ee50>):
+  app/controllers/users_controller.rb:27:in `login'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.2ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:55:56 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1
+Completed 500 Internal Server Error in 89ms
+
+NameError (undefined local variable or method `token_path' for #<UsersController:0x00000004931210>):
+  app/controllers/users_controller.rb:27:in `login'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.4ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 01:56:58 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/auth_token
+Completed 302 Found in 87ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/auth_token" for 178.28.14.250 at 2015-02-02 01:56:58 +0000
+
+AbstractController::ActionNotFound (The action 'view_token' could not be found for UsersController):
+  actionpack (4.1.6) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth_token" for 178.28.14.250 at 2015-02-02 02:05:28 +0000
+Processing by UsersController#view_token as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth_token" for 178.28.14.250 at 2015-02-02 02:05:47 +0000
+Processing by UsersController#view_token as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 14:29:32 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 522ms (Views: 516.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 14:29:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 14:29:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 14:29:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:34 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:34 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:35 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 14:29:52 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (51.6ms)
+Completed 200 OK in 232ms (Views: 229.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 14:29:53 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 15:04:37 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 12ms (ActiveRecord: 1.1ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 15:04:38 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 15:04:39 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 15:04:39 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 15:04:40 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 15:04:40 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 15:04:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 15:04:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 15:04:40 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 15:04:40 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 15:04:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 15:04:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 15:04:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 15:04:41 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 15:22:28 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 88ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 15:22:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 15:22:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 15:22:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 15:22:28 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 15:22:28 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 15:22:28 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 15:22:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 15:22:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 15:22:29 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 15:37:10 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 11ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 15:37:10 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 116ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 15:37:11 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 15:45:07 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 75ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 15:45:08 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 15:45:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 15:45:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 15:45:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 15:45:08 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 15:45:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 15:45:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 15:45:09 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 15:45:09 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:19:35 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 78ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:36 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:19:39 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 6ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:19:39 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 71ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:19:40 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:30:56 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 77ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:30:56 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:30:56 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:30:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:30:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:30:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:30:56 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:30:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:30:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:30:57 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:30:58 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to 
+Completed 500 Internal Server Error in 10ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/login_controller.rb:24:in `login'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.9ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:31:23 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 12ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:31:23 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:24 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:31:27 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:28 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:31:29 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:31:30 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:33:29 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 74ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:29 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:30 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:30 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:33:31 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 6ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:33:31 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:31 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:31 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:32 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:32 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:33:35 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:33:36 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:34:12 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 65ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:34:13 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:34:14 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to 
+Completed 500 Internal Server Error in 6ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/login_controller.rb:24:in `login'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:41:55 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 107ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:41:55 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:41:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:41:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:41:56 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:41:56 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:41:56 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:41:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:41:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:41:56 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:41:57 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to 
+Completed 500 Internal Server Error in 5ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/login_controller.rb:31:in `login'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.2ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:44:17 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 16ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:44:17 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:44:18 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:50:28 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 101ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:29 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:50:31 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 10ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:50:31 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 105ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:32 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:50:37 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 59ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:37 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:37 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:38 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:38 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:50:41 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:50:41 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:50:42 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 105ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:24 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:53:27 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 6ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:53:27 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:28 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:53:57 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"gdfvs@xn--lj-fka.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'gdfvs@xn--lj-fka.com' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 78ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:53:58 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:55:16 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"skadgj@adsg.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'skadgj@adsg.com' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:55:17 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 393ms (Views: 390.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:55:17 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:55:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:55:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:55:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:55:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:55:18 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:55:18 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:55:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:55:18 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:56:49 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 87ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 106ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:56:50 +0000
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:57:24 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test@test.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 75ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:57:24 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:57:25 +0000
+  [1m[35m (1.4ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test2@test.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-02 16:58:46.263402"], ["email", "test3@test.com"], ["name", "test"], ["password_digest", "$2a$10$ZUrHhDSwdRD1qhlhbuFt0OYDdqnYPDu08QkCcguF8OxdIj6t/cNEC"], ["updated_at", "2015-02-02 16:58:46.263402"]]
+  [1m[35m (14.6ms)[0m  commit transaction
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 16:58:53 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test3@test.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/
+Completed 302 Found in 86ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 16:58:53 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 16:58:54 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 113ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:39 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 17:22:50 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 17:23:00 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 17:27:48 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 118ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 17:27:49 +0000
+
+
+Started GET "/" for 178.28.14.250 at 2015-02-02 17:29:05 +0000
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 73ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 17:29:06 +0000
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 17:29:07 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 17:29:20 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test3@test.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1
+  Rendered text template (0.0ms)
+Completed 200 OK in 110ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 17:30:18 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test3@test.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 84ms (Views: 1.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 17:30:23 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test3@test.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1
+  Rendered text template (0.1ms)
+Completed 200 OK in 72ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 17:31:35 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test3@test.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1[0m
+Completed 500 Internal Server Error in 18ms
+
+NameError (undefined local variable or method `passowrd' for #<LoginController:0x00000004a9c3c0>):
+  app/controllers/login_controller.rb:11:in `login'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.9ms)
+
+
+Started POST "/login" for 178.28.14.250 at 2015-02-02 17:31:45 +0000
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N++IzXYs+8XEJwt9d1THmZqAXPCctwN6GMbKq8xI7f4=", "email"=>"test3@test.com", "password"=>"[FILTERED]", "commit"=>"Logga in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test3@test.com' LIMIT 1
+Redirected to https://jj222kc-webbramverk-laht1.c9.io/auth_token
+Completed 302 Found in 83ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/auth_token" for 178.28.14.250 at 2015-02-02 17:31:46 +0000
+Processing by UsersController#view_token as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth_token" for 178.28.14.250 at 2015-02-02 19:04:48 +0000
+Processing by UsersController#view_token as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth_token" for 178.28.14.250 at 2015-02-02 20:00:16 +0000
+Processing by AuthTokenController#index as HTML
+  Rendered auth_token/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 363ms (Views: 360.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth_token.css?body=1" for 178.28.14.250 at 2015-02-02 20:00:16 +0000
+
+
+Started GET "/assets/login.css?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/auth_token.js?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/users.css?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/users.js?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/login.js?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 178.28.14.250 at 2015-02-02 20:00:17 +0000
+  [1m[36m (13.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150129213958)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "password_digest" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150129213958"]]
+  [1m[35m (16.2ms)[0m  commit transaction
+Migrating to CreateAuthTokens (20150202200802)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mUser Load (3.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mAuthTokens Load (1.0ms)[0m  SELECT "auth_tokens".* FROM "auth_tokens"
+SQLite3::SQLException: no such table: auth_tokens: SELECT "auth_tokens".* FROM "auth_tokens"
+  [1m[36mAuthTokens Load (0.8ms)[0m  [1mSELECT "auth_tokens".* FROM "auth_tokens"[0m
+SQLite3::SQLException: no such table: auth_tokens: SELECT "auth_tokens".* FROM "auth_tokens"
+  [1m[36m (14.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150129213958)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "password_digest" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150129213958"]]
+  [1m[35m (14.2ms)[0m  commit transaction
+Migrating to CreateAuthTokens (20150202200802)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (16.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150129213958)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "password_digest" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150129213958"]]
+  [1m[35m (15.7ms)[0m  commit transaction
+Migrating to CreateAuthTokens (20150202200802)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAuthTokens (20150202210338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36m (13.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150129213958)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "password_digest" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150129213958"]]
+  [1m[35m (11.4ms)[0m  commit transaction
+Migrating to CreateAuthTokens (20150202210338)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTokens (20150202212423)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "tokens" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "token" integer NOT NULL, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_tokens_on_user_id" ON "tokens" ("user_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150202212423"]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_tokens_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_tokens_on_user_id' AND type='index'
+[0m
+  [1m[36m (18.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (14.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150129213958)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "password_digest" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150129213958"]]
+  [1m[35m (21.0ms)[0m  commit transaction
+Migrating to CreateTokens (20150202212423)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.1ms)[0m  CREATE TABLE "tokens" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "token" integer NOT NULL, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_tokens_on_user_id" ON "tokens" ("user_id")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150202212423"]]
+  [1m[36m (11.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_tokens_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_tokens_on_user_id' AND type='index'
+[0m
+  [1m[36mUser Load (2.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mToken Load (0.3ms)[0m  SELECT "tokens".* FROM "tokens"
+  [1m[36m (1.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-02-02 21:37:28.789729"], ["email", "test@test.com"], ["name", "test"], ["password_digest", "$2a$10$9M5EcCGcx/n5unEYia0/kOOTlc5pjwNlQNb.pw5pOldSLmRqwMDd."], ["updated_at", "2015-02-02 21:37:28.789729"]]
+  [1m[35m (13.7ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "tokens" ("created_at", "token", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", "2015-02-02 21:40:02.264707"], ["token", 123], ["updated_at", "2015-02-02 21:40:02.264707"], ["user_id", 1]]
+  [1m[36m (21.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[36m (14.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (10.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150129213958)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "password_digest" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150129213958"]]
+  [1m[35m (15.2ms)[0m  commit transaction
+Migrating to CreateTokens (20150202212423)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "tokens" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "token" integer NOT NULL, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_tokens_on_user_id" ON "tokens" ("user_id")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150202212423"]]
+  [1m[36m (10.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_tokens_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_tokens_on_user_id' AND type='index'
+[0m
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "tokens" ("created_at", "token", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", "2015-02-02 22:21:09.367582"], ["token", 0], ["updated_at", "2015-02-02 22:21:09.367582"], ["user_id", 1]]
+  [1m[36m (11.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mToken Load (0.6ms)[0m  SELECT  "tokens".* FROM "tokens"   ORDER BY "tokens"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2015-02-02 22:25:55.776412"], ["email", "test@test.com"], ["name", "test"], ["password_digest", "$2a$10$4LF0ZJv66dlJf.zLahez7.Znw/ISYkFfPzES4p13jIA2TvHj.pxOW"], ["updated_at", "2015-02-02 22:25:55.776412"]]
+  [1m[36m (14.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mToken Load (0.5ms)[0m  SELECT  "tokens".* FROM "tokens"   ORDER BY "tokens"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mToken Load (0.4ms)[0m  SELECT  "tokens".* FROM "tokens"  WHERE "tokens"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "tokens" SET "token" = ?, "updated_at" = ? WHERE "tokens"."id" = 1  [["token", 128947129847], ["updated_at", "2015-02-02 22:27:40.573442"]]
+  [1m[36m (11.9ms)[0m  [1mcommit transaction[0m
+  [1m[36mToken Load (0.2ms)[0m  [1mSELECT  "tokens".* FROM "tokens"   ORDER BY "tokens"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mToken Load (0.6ms)[0m  SELECT  "tokens".* FROM "tokens"  WHERE "tokens"."user_id" = ? LIMIT 1  [["user_id", 1]]

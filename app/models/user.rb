@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
     has_secure_password
+    has_one :token
     
     #validation for name
     validates :name, :presence => {:message => 'Du måste ange ett namn'}
@@ -15,18 +16,4 @@ class User < ActiveRecord::Base
     validates_format_of :email, :with => /\b[A-Z0-9._%a-z\-]+@(?:[A-Z0-9a-z\-]+\.)+[A-Za-z]{2,4}\z/,
     :presence => {:message => 'Felaktigt format på eposten'}
     
-    
-    def login
-        appUser = User.find_by_email(params[:email])
-        
-        if appUser && appUser.authenticate(params[:password])
-            session[:userid] = appUser.id
-            #redirect_to get api key path
-        else
-            if !appUser
-                flash[:notice] = 'Hittade inte eposten'
-            end
-            redirect_to root_path
-        end
-    end
 end
