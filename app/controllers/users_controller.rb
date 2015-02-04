@@ -1,6 +1,8 @@
 class UsersController < ApplicationController
     def index
-        @user = User.all
+        if !current_user.nil?
+            redirect_to auth_token_path
+        end
     end
     
     def new
@@ -15,37 +17,17 @@ class UsersController < ApplicationController
         u = User.new(user_params)
 
         if u.save
-            redirect_to user_path(u)
-        end
-    end
-    
-    #lyft ut det här till en egen controller
-    def login
-        appUser = User.find_by_email(params[:email])
-        
-        if appUser && appUser.authenticate(params[:password])
-            session[:userid] = appUser.id
+            Token.create user_id = u.id
             redirect_to auth_token_path
-        else
-            if !appUser
-                flash[:notice] = 'Hittade inte eposten'
-            else
-                flash[:notice] = 'Fel lösenord eller epost'
-            end
-            redirect_to root_path
         end
     end
     
-    
-    #lyft ut det här till en egen controller
-    def view_token
-        render :text => 'Här kommer din applikationsnyckel finnas tillgänglig'
-    end
-    
-    ##private methods
 	private
 	
 	def user_params
-		params.require(:user).permit(:name, :email, :password);
+		params.require(:user).permit(:name, 
+	                                 :email, 
+	                                 :password, 
+	                                 :password_confirmation);
 	end
 end

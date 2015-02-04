@@ -3,9 +3,7 @@ class LoginController < ApplicationController
     def login
         email = params[:email]
         password = params[:password]
-        
         message = "";
-        
         appUser = User.find_by_email(email)
         
         if appUser && appUser.authenticate(password)

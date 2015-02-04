@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20150202212423) do
 
   create_table "tokens", force: true do |t|
-    t.integer  "token",      null: false
+    t.integer  "token"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
