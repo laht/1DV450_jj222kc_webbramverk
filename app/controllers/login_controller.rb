@@ -8,7 +8,11 @@ class LoginController < ApplicationController
         
         if appUser && appUser.authenticate(password)
             session[:userid] = appUser.id
-            redirect_to auth_token_path
+            if is_admin
+                redirect_to users_path
+            else
+                redirect_to auth_token_path
+            end
         else
             if email == ""
                 message = 'Du måste ange en epost'

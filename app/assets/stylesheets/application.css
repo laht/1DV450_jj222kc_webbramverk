@@ -21,3 +21,11 @@
 @import "bootswatch/flatly/bootswatch";
 
 @import "base";
+
+#main {
+    width: 960px;
+    margin: 100px auto;
+    height: 700px;
+    background: #DADADA;
+    border-radius: 10px;
+}

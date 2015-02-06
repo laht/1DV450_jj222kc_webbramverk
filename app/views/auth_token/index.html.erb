@@ -1,1 +1,11 @@
-<%= @token %>
+<% if @token.nil? %> 
+    <p>Du har ingen nyckel ännu</p>
+    <%= link_to "Begär en nyckel", gen_token_path %>
+<% else %>
+    API Nyckel:<%= @token.to_s %> <br />
+    <%= link_to "Ta bort nyckel", delete_token_path %>
+<% end %>
+
+<div id="logout-btn">
+    <%= link_to "Logga ut", logout_path %>
+</div>

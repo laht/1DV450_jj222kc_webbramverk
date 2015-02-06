@@ -16,4 +16,10 @@ class ApplicationController < ActionController::Base
     end
   end
   
+  def is_admin
+    if current_user.name == 'admin'
+      return true
+    end
+  end
+  
 end

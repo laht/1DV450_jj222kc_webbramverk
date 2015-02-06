@@ -1,16 +1,14 @@
 class UsersController < ApplicationController
     def index
         if !current_user.nil?
-            redirect_to auth_token_path
+            if !is_admin
+                redirect_to auth_token_path                
+            end
         end
     end
     
     def new
         @user = User.new
-    end
-    
-    def show
-        render :html => User.first(params[:id]) #glöm fan inte att ändra det här
     end
     
     def create
