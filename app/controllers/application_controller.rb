@@ -17,7 +17,7 @@ class ApplicationController < ActionController::Base
   end
   
   def is_admin
-    if current_user.name == 'admin'
+    if current_user.email == 'admin@site.com'
       return true
     end
   end

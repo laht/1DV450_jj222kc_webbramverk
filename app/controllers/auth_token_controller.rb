@@ -6,9 +6,14 @@ class AuthTokenController < ApplicationController
     end
     
     def delete_token
-        current_user.token.token = nil
-        current_user.token.save
-        redirect_to action: :index
+        user = User.find(params[:user_id])
+        user.token.token = nil
+        user.token.save
+        if is_admin
+            redirect_to users_path
+        else
+            redirect_to action: :index
+        end        
     end
     
     def gen_token

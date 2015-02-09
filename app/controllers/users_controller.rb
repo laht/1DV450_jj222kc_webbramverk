@@ -1,10 +1,11 @@
 class UsersController < ApplicationController
+    before_action :require_login, only: [:index]
+
     def index
         if !current_user.nil?
             if !is_admin
                 redirect_to auth_token_path                
             end
-
             @users = User.all
         end
     end
