@@ -1,9 +1,18 @@
-<div id="registerForm">
-    <%= form_for @user do |f| %>
-       Ange namn: <%= f.text_field :name %>
-       Ange epost: <%= f.text_field :email %>
-       Ange lösenord: <%= f.password_field :password %>
-       Upprepa lösenord: <%= f.password_field :password_confirmation %>
-       <%= f.submit "Registrera användare" %>
-    <% end %>
+<div class="well bs-component">
+	<div id="register-form" class="form-horizontal">
+		<div class="flash-notice">
+        	<% if flash.any? %>        		
+        		<% flash[:notice].each do |msg| %>
+        		<p><%= msg %></p>
+        		<% end %>
+        	<% end %>
+    	</div>
+	    <%= form_for @user do |f| %>
+	       Ange namn: <%= f.text_field :name %>
+	       Ange epost: <%= f.text_field :email %>
+	       Ange lösenord: <%= f.password_field :password %>
+	       Upprepa lösenord: <%= f.password_field :password_confirmation %>
+	       <%= f.submit "Registrera användare" %>
+	    <% end %>
+	</div>
 </div>

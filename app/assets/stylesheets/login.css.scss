@@ -3,6 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .well {
-    width: 300px;
     position: relative;
+    border-radius: 0px;
+	position: relative;
+  	top: 40%;
+  	transform: translateY(-50%);
+}
+#log-in-form {
+	width: 23%;
+	margin: 0 auto;
 }

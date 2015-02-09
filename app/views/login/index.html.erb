@@ -1,9 +1,8 @@
-<div class="flash-notice">
-    <p><%= flash[:notice] %></p>
-</div>
-
 <div class="well bs-component">
     <div id="log-in-form" class="form-horizontal">
+        <div class="flash-notice">
+            <p><%= flash[:notice] %></p>
+        </div>
         <%= form_tag(login_path, method: "post") do %>
             <p>
                 <%= label_tag(:email, "Epost:") %>

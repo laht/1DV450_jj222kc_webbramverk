@@ -1,0 +1,18 @@
+<div id="users-list" class="list-group">
+	<ul>
+		<% @users.each do |user| %>
+			<li class="list-group-item">
+				<ul>
+					<li class="list-group-item">Namn: <%= user.name %></li>
+					<li class="list-group-item">Epost: <%= user.email %></li>
+					<% if user.token.token.nil? %>
+						<li class="list-group-item">Api Nyckel: Ingen nyckel</li>
+					<% else %>
+						<li class="list-group-item">Api Nyckel: <%= user.token.token %></li>
+					<% end %>					
+				</ul>
+			</li>
+		<% end %>
+	</ul>
+</div>
+
