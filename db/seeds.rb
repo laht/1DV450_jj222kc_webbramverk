@@ -14,5 +14,5 @@ User.create!(
 
 Token.create!(
 			  token: 	"admintoken",
-			  user_id: 0
+			  user_id: 1
 			  )
