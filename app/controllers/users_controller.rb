@@ -19,7 +19,9 @@ class UsersController < ApplicationController
         messages = Array.new
 
         if u.save
-            Token.create user_id = u.id
+            t = Token.new
+            t.user_id = u.id
+            t.save
             redirect_to auth_token_path
         else
             if params[:user][:name] == '' || 
@@ -36,10 +38,10 @@ class UsersController < ApplicationController
             end
             if params[:user][:password] != 
                 params[:user][:password_confirmation]
-                messages.push 'Lösenorder överensstämmer inte'
+                messages.push 'Lösenorden överensstämmer inte'
             end
-        end     
-        redirect_to new_user_path, :notice => messages
+            redirect_to new_user_path, :notice => messages
+        end             
     end
     
 	private
