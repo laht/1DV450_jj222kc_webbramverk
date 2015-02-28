@@ -1,11 +1,15 @@
 <div class="well bs-component">
 	<div id="register-form" class="form-horizontal">
 		<div class="flash-notice">
-        	<% if flash.any? %>        		
-        		<% flash[:notice].each do |msg| %>
-        		<p><%= msg %></p>
-        		<% end %>
-        	<% end %>
+        	<% if @user.errors.any? %>
+				<div id="error_messages">
+					<ul>
+						<% @user.errors.full_messages.each do |msg| %>
+						<li><%= msg %></li>
+						<% end %>
+					</ul>
+				</div>
+			<% end %>
     	</div>
 	    <%= form_for @user do |f| %>
 	       Ange namn: <%= f.text_field :name %>

@@ -15,32 +15,16 @@ class UsersController < ApplicationController
     end
     
     def create
-        u = User.new(user_params)
+        @user = User.new(user_params)
         messages = Array.new
 
-        if u.save
+        if @user.save
             t = Token.new
             t.user_id = u.id
             t.save
             redirect_to auth_token_path
         else
-            if params[:user][:name] == '' || 
-                params[:user][:name].nil?
-                messages.push 'Ange ett namn'
-            end
-            if params[:user][:email] == '' || 
-                params[:user][:email].nil?
-                messages.push 'Ange en epost'
-            end
-            if params[:user][:password] == '' || 
-                params[:user][:password].nil?
-                messages.push 'Ange ett lösenord'
-            end
-            if params[:user][:password] != 
-                params[:user][:password_confirmation]
-                messages.push 'Lösenorden överensstämmer inte'
-            end
-            redirect_to new_user_path, :notice => messages
+            render :action => 'new'
         end             
     end
     
