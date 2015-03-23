@@ -6,7 +6,8 @@ class User < ActiveRecord::Base
     validates :name, :presence => {:message => 'Du måste ange ett namn'}
     
     #validation for password
-    validates :password_confirmation, :presence =>true
+    validates :password, :presence => {:message => 'Du måste ange ett lösenord'}    
+    validates :password_confirmation, :presence => {:message => 'Upprepa lösenordet'}
     
     #validation for email
     validates :email, 
