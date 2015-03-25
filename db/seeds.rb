@@ -14,5 +14,14 @@ User.create!(
 
 Token.create!(
 			  token: 	"admintoken",
-			  user_id: 1
-			  )
+			  user_id: 1)
+Position.create!(
+					name: "östra-småland",
+					longitude:5,
+					latitude:5)
+Creator.create!(
+			  name: 	"admin")
+Event.create!(
+			name:     "first",
+			position_id: 	1,
+			creator_id:     1)
