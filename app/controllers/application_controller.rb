@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   private
-  helper_method :current_user
+  helper_method :current_user, :require_login
   
   def current_user
     @current_user ||= User.find(session[:userid]) if session[:userid]
@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   
   def require_login
     if current_user.nil? then
-      redirect_to root_path
+      redirect_to root_path, :notice => "Du måste logga in"
     end
   end
   

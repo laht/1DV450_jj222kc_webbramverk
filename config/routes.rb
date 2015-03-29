@@ -12,6 +12,15 @@ Rails.application.routes.draw do
   get 'gen_token' => 'auth_token#gen_token', :as => 'gen_token'
   get 'delete_token' => 'auth_token#delete_token', :as => 'delete_token'
 
+
+  #web api resources
+  resources :tags  do 
+    resources :events
+  end
+  resources :events do
+    resources :tags
+  end
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
