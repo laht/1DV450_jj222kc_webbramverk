@@ -11,7 +11,7 @@ class TagsController < ApplicationController
 		end
 	end
 	def show
-		@tags = Tag.all 
+		@tags = Tag.find(params[:id])
 		render :json => @tags
 	end
 	def new

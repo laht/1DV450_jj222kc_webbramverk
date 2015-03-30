@@ -1,6 +1,13 @@
 class EventsController < ApplicationController
 	def index
-		@events = Event.order('Created_at DESC')
+		@events
+		if params[:tag_id]
+			@events = Tag.find(params[:tag_id]).events
+		elsif params[:creator_id]
+			@events = Creator.find(params[:creator_id]).events
+		else
+			@events = Event.order('Created_at DESC')
+		end
 		render :json => @events
 	end
 	def show

@@ -19,7 +19,13 @@ Rails.application.routes.draw do
   end
   resources :events do
     resources :tags
+    resources :creator
+    resources :positions
   end
+  resources :creators do
+    resources :events
+  end
+  resources :positions
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
