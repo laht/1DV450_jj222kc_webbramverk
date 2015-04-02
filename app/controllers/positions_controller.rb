@@ -1,6 +1,11 @@
 class PositionsController < ApplicationController
 	def index
-		@positions = Position.all
+		if params[:nearby]
+			
+		else
+			@positions = Position.all	
+		end
+
 		render :json => @positions
 	end
 	def show
