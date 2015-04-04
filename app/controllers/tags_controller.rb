@@ -1,6 +1,5 @@
-#model.association.delete(model)
-
 class TagsController < ApplicationController
+	before_action :api_token_authorization
 	def index
 		if params[:event_id]
 			@tags = Event.find(params[:event_id]).tags

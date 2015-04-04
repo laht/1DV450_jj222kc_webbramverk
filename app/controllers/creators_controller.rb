@@ -1,4 +1,5 @@
 class CreatorsController < ApplicationController
+	before_action :api_token_authorization
 	def index
 		@creators = Creator.all
 		render :json => @creators

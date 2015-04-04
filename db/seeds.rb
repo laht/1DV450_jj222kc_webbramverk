@@ -13,7 +13,7 @@ User.create!(
              password_confirmation: "password")
 
 Token.create!(
-			  token: 	"admintoken",
+			  token: 	0000,
 			  user_id: 1)
 Position.create!(
 					name: "östra-småland",

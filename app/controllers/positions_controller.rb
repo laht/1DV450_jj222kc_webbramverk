@@ -1,4 +1,5 @@
 class PositionsController < ApplicationController
+	before_action :api_token_authorization
 	def index
 		if params[:nearby]
 			

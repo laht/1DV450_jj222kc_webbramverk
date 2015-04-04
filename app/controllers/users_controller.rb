@@ -20,7 +20,7 @@ class UsersController < ApplicationController
 
         if @user.save
             t = Token.new
-            t.user_id = u.id
+            t.user_id = @user.id
             t.save
             redirect_to auth_token_path
         else

@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
+	before_action :api_token_authorization
 	def index
-		@events
 		if params[:tag_id]
 			@events = Tag.find(params[:tag_id]).events
 		elsif params[:creator_id]
