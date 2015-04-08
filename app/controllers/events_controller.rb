@@ -5,13 +5,17 @@ class EventsController < ApplicationController
 			@events = Tag.find(params[:tag_id]).events
 		elsif params[:creator_id]
 			@events = Creator.find(params[:creator_id]).events
+		elsif params[:position_id]
+			@events = Position.find(params[:position_id]).events
 		else
 			@events = Event.order('Created_at DESC')
 		end
-		render :json => @events
+	rescue
+		notFound
 	end
 	def show
 		@event = Event.find(params[:id])
-		render :json => @event
+	rescue
+		notFound
 	end
 end

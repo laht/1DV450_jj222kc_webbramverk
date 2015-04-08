@@ -1,16 +1,19 @@
 class PositionsController < ApplicationController
 	before_action :api_token_authorization
 	def index
-		if params[:nearby]
-			
+		if params[:event_id]
+			@positions = Event.find(params[:event_id]).position
 		else
 			@positions = Position.all	
 		end
-
-		render :json => @positions
+	rescue
+		notFound
 	end
+
 	def show
 		@position = Position.find(params[:id])
-		render :json => @position
+		@nearbyEvents = Position.find(params[:id]).nearbyEvents
+	rescue
+		notFound
 	end
 end

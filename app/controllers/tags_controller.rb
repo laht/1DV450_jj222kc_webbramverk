@@ -3,15 +3,16 @@ class TagsController < ApplicationController
 	def index
 		if params[:event_id]
 			@tags = Event.find(params[:event_id]).tags
-			render :json => @tags
 		else
 			@tags = Tag.all
-			render :json => @tags
 		end
+	rescue
+		notFound
 	end
 	def show
-		@tags = Tag.find(params[:id])
-		render :json => @tags
+		@tag = Tag.find(params[:id])
+	rescue
+		notFound
 	end
 	def new
 		@tag = Tag.new
