@@ -3,8 +3,8 @@ class EventsController < ApplicationController
 	before_filter :verify_users_creds, :only => [:create, :update, :destroy]
 
 	def index
-		defaultLimit = 0
-		defaultOffset = 0
+		defaultLimit = nil
+		defaultOffset = nil
 		if params[:limit]
 			defaultLimit = params[:limit]
 		end
@@ -13,13 +13,13 @@ class EventsController < ApplicationController
 		end
 
 		if params[:tag_id]
-			@events = Tag.find(params[:tag_id]).events
+			@events = Tag.find(params[:tag_id]).events.limit(defaultLimit).offset(defaultOffset)
 		elsif params[:creator_id]
-			@events = Creator.find(params[:creator_id]).events
+			@events = Creator.find(params[:creator_id]).events.limit(defaultLimit).offset(defaultOffset)
 		elsif params[:position_id]
-			@events = Position.find(params[:position_id]).events
+			@events = Position.find(params[:position_id]).events.limit(defaultLimit).offset(defaultOffset)
 		elsif params[:search]
-			@events = search_events(params[:search])
+			@events = search_events(params[:search]).limit(defaultLimit).offset(defaultOffset)
 		else
 			@events = Event.order('Created_at DESC').limit(defaultLimit).offset(defaultOffset)
 		end
@@ -54,7 +54,7 @@ class EventsController < ApplicationController
 		if params[:tag_name]
 			tag_name = params[:tag_name]
 			t = Tag.find_or_create_by(name: :tag_name)
-			@event << t
+			@event.tags << t
 		end			
 		if @event.save
 			render :template => '/events/show', :status => :created
