@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
   def get_api_user
     token = request.headers['X-Access-Token']
     token = Token.where(token: token).take
-    if !token.nil
+    if !token.nil?
       user = token.user  
     end    
     return user
@@ -51,16 +51,25 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def verify_resource_owner
-
+  def verify_event_owner(api_user)
+    owner = false    
+    if ((controller_name == 'events') && (action_name == 'update' || action_name == 'destroy'))
+      event = Event.find(params[:id])
+      resourceOwner = event.creator.email
+      if resourceOwner == get_api_user.email
+        owner = true
+      end
+      return owner
+    else
+      return true
+    end
   end
 
   def verify_users_creds
     if !match_user_creds
       unauthorized
-    end
-    if verify_resource_owner
-      user = get_api_user
+    elsif !verify_event_owner(get_api_user)
+      unauthorized
     end
   end
 

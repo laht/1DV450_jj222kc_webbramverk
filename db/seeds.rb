@@ -15,12 +15,16 @@ User.create!(
 Token.create!(
 			  token: 	0000,
 			  user_id: 1)
+Tag.create!(
+			  token: 	0000
+			  )
 Position.create!(
 					name: "östra-småland",
 					longitude:5,
 					latitude:5)
 Creator.create!(
-			  name: 	"admin")
+			  name: 	"admin",
+			  email: "admin@site.com")
 Event.create!(
 			name:     "first",
 			position_id: 	1,

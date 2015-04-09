@@ -3,6 +3,15 @@ class EventsController < ApplicationController
 	before_filter :verify_users_creds, :only => [:create, :update, :destroy]
 
 	def index
+		defaultLimit = 0
+		defaultOffset = 0
+		if params[:limit]
+			defaultLimit = params[:limit]
+		end
+		if params[:offset]
+			defaultOffset = params[:offset]
+		end
+
 		if params[:tag_id]
 			@events = Tag.find(params[:tag_id]).events
 		elsif params[:creator_id]
@@ -12,7 +21,7 @@ class EventsController < ApplicationController
 		elsif params[:search]
 			@events = search_events(params[:search])
 		else
-			@events = Event.order('Created_at DESC')
+			@events = Event.order('Created_at DESC').limit(defaultLimit).offset(defaultOffset)
 		end
 	rescue
 		notFound
@@ -30,6 +39,15 @@ class EventsController < ApplicationController
 
 	def create
 		@event = Event.new(event_params)
+		c = Creator.find_by(email: get_api_user().email)
+		if c.nil?
+			user = User.find_by(email: get_api_user().email)
+			c = Creator.new
+			c.name = user.name
+			c.email = user.email
+			c.save
+		end
+		@event.creator_id = c.id
 		if params[:tag_id]
 			@event.tags << Tag.find(params[:tag_id])
 		end
@@ -37,7 +55,7 @@ class EventsController < ApplicationController
 			tag_name = params[:tag_name]
 			t = Tag.find_or_create_by(name: :tag_name)
 			@event << t
-		end	
+		end			
 		if @event.save
 			render :template => '/events/show', :status => :created
 		else
@@ -49,10 +67,22 @@ class EventsController < ApplicationController
 
 	def update
 		@event = Event.find(params[:id])
-
 		if @event.nil?
 			notFound
 		elsif @event.update_attributes(event_params)
+			if params[:tag_id]
+				t = Tag.find(params[:tag_id])
+				if t.nil?
+					notFound
+				end
+				@event.tags << t
+			elsif params[:tag_name]
+				t = Tag.find_or_create_by(name: params[:tag_name])
+				if t.nil?
+					notFound
+				end
+				@event.tags << t
+			end
 			render :template => '/events/show', :status => :ok
 		else
 			not_modified

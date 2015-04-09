@@ -11,8 +11,6 @@ class CreatorsController < ApplicationController
 	end
 	def show
 		@creator = Creator.find(params[:id])
-		pass = BCrypt::Password.create('test')
-		render :text => pass
 	rescue
 		notFound
 	end
