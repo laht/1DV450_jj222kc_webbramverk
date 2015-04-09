@@ -11,6 +11,15 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def get_api_user
+    token = request.headers['X-Access-Token']
+    token = Token.where(token: token).take
+    if !token.nil
+      user = token.user  
+    end    
+    return user
+  end
+
   def unauthorized
      response.status = 401
       error = {
@@ -28,9 +37,30 @@ class ApplicationController < ActionController::Base
     render :template => 'application/bad_request', :status => 400
   end
   
-  def verify_users_creds
+  def match_user_creds
     authenticate_or_request_with_http_basic do |email, password|
-      email == "test@test.com" && password == "asdasd"
+      token = request.headers['X-Access-Token']
+      token = Token.where(token: token).take      
+      
+      if !token.nil?
+        user = token.user
+      end
+
+      return user && user.email == email && user.authenticate(password)
+
+    end
+  end
+
+  def verify_resource_owner
+
+  end
+
+  def verify_users_creds
+    if !match_user_creds
+      unauthorized
+    end
+    if verify_resource_owner
+      user = get_api_user
     end
   end
 

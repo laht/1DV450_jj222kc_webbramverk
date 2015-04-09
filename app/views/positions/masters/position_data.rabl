@@ -1,3 +1,3 @@
 object @position
 
-attributes :id, :longitude, :latitude
+attributes :id, :name, :longitude, :latitude

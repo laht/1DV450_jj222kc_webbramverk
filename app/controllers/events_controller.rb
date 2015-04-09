@@ -32,8 +32,11 @@ class EventsController < ApplicationController
 		@event = Event.new(event_params)
 		if params[:tag_id]
 			@event.tags << Tag.find(params[:tag_id])
-		elsif params[:tag_name]
-			
+		end
+		if params[:tag_name]
+			tag_name = params[:tag_name]
+			t = Tag.find_or_create_by(name: :tag_name)
+			@event << t
 		end	
 		if @event.save
 			render :template => '/events/show', :status => :created
@@ -45,7 +48,26 @@ class EventsController < ApplicationController
 	end
 
 	def update
-		
+		@event = Event.find(params[:id])
+
+		if @event.nil?
+			notFound
+		elsif @event.update_attributes(event_params)
+			render :template => '/events/show', :status => :ok
+		else
+			not_modified
+		end
+	end
+
+	def destroy
+		@event = Event.find(params[:id])
+
+		if @event.nil?
+			notFound
+		else
+			@event.destroy
+			render :template => '/events/destroy', :status => :ok
+		end
 	end
 
 	private
