@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
-  protect_from_forgery with: :exception
+  protect_from_forgery with: :null_session
 
   def api_token_authorization
     token = request.headers['X-Access-Token']  
@@ -23,7 +23,17 @@ class ApplicationController < ActionController::Base
   def notFound
     render :template => 'application/NotFound', :status => 404
   end
+
+  def bad_request
+    render :template => 'application/bad_request', :status => 400
+  end
   
+  def verify_users_creds
+    authenticate_or_request_with_http_basic do |email, password|
+      email == "test@test.com" && password == "asdasd"
+    end
+  end
+
   private
   helper_method :current_user, :require_login  
   

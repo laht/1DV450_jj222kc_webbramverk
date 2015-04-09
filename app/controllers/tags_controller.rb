@@ -1,5 +1,5 @@
 class TagsController < ApplicationController
-	before_action :api_token_authorization
+	before_action :verify_users_creds
 	def index
 		if params[:event_id]
 			@tags = Event.find(params[:event_id]).tags
